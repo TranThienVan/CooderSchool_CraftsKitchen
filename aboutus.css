@@ -14,84 +14,17 @@ html {
   box-sizing: inherit;
 }
 
-.column {
-  width: 25%;
-
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-.title {
-  margin-top: 5px;
-  font-size: 50px;
-  font-family: Montserrat, sans-serif;
-  padding-top: 10px;
-}
-h2 {
-  color: white;
-  font-family: Montserrat, sans-serif;
-}
-p {
-  color: white;
-
-  font-family: Montserrat, sans-serif;
-}
-.cards {
-  margin-bottom: auto;
-}
-.card {
-  box-shadow: 0 4px 6px 0 white;
-  margin: 6px;
-}
-
 .big-image {
   background-image: url("https://images.wallpaperscraft.com/image/burger_hamburger_buns_meat_knife_116170_1920x1080.jpg");
   height: 100vh;
   background-position: 50% 50%;
   position: relative;
   background-size: cover;
-}
-.overlay {
-  margin: 0;
-  color: white;
-  font-family: Montserrat, sans-serif;
-}
-.container {
-  padding: 0 10px;
-}
-
-.container::after,
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.row {
   display: flex;
-  justify-content: center;
-}
-/* .title {
-  color: white;
-} */
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.button:hover {
-  background-color: lightgrey;
-}
-
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
+.card{
+  margin: 50px 20px 400px 20px;
 }

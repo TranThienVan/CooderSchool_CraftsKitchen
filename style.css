@@ -209,11 +209,18 @@ nav a {
 
 /* CSS Section 3 */
 .header {
-  padding-left: 290px;
+  text-align: center;
   font-family: Montserrat, sans-serif;
   font-size: 45px;
-  margin-bottom: 20px;
+  margin: 40px auto;
 }
+
+.column{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 .l-container {
   font-family: Montserrat, sans-serif;
   display: flex;
@@ -226,7 +233,6 @@ nav a {
   border: 2px solid black;
   padding: 20px;
   border-radius: 25px;
-  height: 100px;
   font-family: Montserrat, sans-serif;
   font-size: 14px;
 }
@@ -236,7 +242,6 @@ nav a {
   border: 2px solid black;
   padding: 20px;
   border-radius: 25px;
-  height: 100px;
   font-family: Montserrat, sans-serif;
   font-size: 14px;
 }
@@ -287,6 +292,7 @@ nav a {
     margin-top: 30px;
     text-align: center;
     font-family: Montserrat, sans-serif;
+    font-size: 50px;
 }
 
 .section-2 div {
@@ -296,7 +302,7 @@ nav a {
 }
 
 .menu-img {
-    width: 80vw;
+    width: 70vw;
 }
 
 .section-2 a{
