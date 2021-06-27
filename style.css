@@ -204,8 +204,10 @@ nav a {
 }
 
 .end-first-section {
-  padding-top: 28px;
+    padding-top: 28px;
 }
+
+/* CSS Section 3 */
 .header {
   padding-left: 290px;
   font-family: Montserrat, sans-serif;
